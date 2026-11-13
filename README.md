@@ -44,10 +44,7 @@ Requires Node 22 or 24.
 - `git push` failed on a slow connection and then because the repo name had a trailing dash. I fixed the remote URL.
 
 ## Collaboration
-- **Team / partner:** NAME OR "none, did not do the peer review"
 - **PR I opened:** https://github.com/rahabkungu/iyf-s12-week-07-rahabkungu/pull/1
-- **PR I reviewed:** NOT DONE
-- **Review I wrote:** NOT DONE
 
 ## Live Demo
 [View Live Demo](https://rahabkungu.github.io/iyf-s12-week-07-rahabkungu/)
