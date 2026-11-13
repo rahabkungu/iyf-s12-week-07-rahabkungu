@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="product-list">
+            <h2>Product catalog</h2>
+            <div id="products-container"></div>
+        </div>
+        <div class="cart-section">
+            <h2>Your shopping cart</h2>
+            <div id="cart-container">
+                <p id="empty-cart-msg">Your cart is empty</p>
+                <div id="cart-items-list"></div>
+                <h3>Total: $<span id="cart-total">0.00</span></h3>
+                <button id="clear-cart-btn" class="danger-btn" style="display: none;">Clear cart</button>
+            </div>
+        </div>
+    </div>
+    <!--Entry point as a javascript modeule-->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
